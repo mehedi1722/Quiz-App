@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* Css Code Here  */
+
+section#start-Quiz {
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+section#start-Quiz button {
+    padding: 14px 30px;
+    border: none;
+    background: #2196f3;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+section#Quiz-container {
+    background: #ffffff;
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px 70px;
+    box-shadow: 0 0 5px -2px #6d6b6b;
+    border-radius: 5px;
+    display: none;
+}
+
+.Question-area h3 {
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.Question-area {
+    padding: 10px 0;
+}
+
+.Options ul li {
+    margin: 10px 0;
+}
+
+.Options ul li label {
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.Submit_button button {
+    background: #163e5d;
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 1px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.Submit_button {
+    padding: 20px 0 0 0;
+}
+
+section#result-section {
+    width: 500px;
+    background: #ffffff;
+    text-align: center;
+    padding: 100px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 2px grey;
+    border-radius: 2px;
+    display: none;
+}
+
+section#result-section h3 {
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding: 10px;
+}
+
+section#result-section h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #888888;
+}

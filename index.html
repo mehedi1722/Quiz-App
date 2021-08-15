@@ -5,8 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?	family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" 	rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Quiz App</h1>
+    
+    <section id="start-Quiz"><button id="Start-quiz-btn">Start Quiz</button></section>
+
+    <section id="Quiz-container">
+        <div class="Question-area">
+            <h3> <span id="Q-number"></span>. <span  id="Question"></span></h3>
+        </div>
+        <div class="Options">
+            <ul>
+                <li>
+                    <input type="radio" id="A" name="answer">
+                    <label for="A" id="option_A"></label>
+                </li>
+                <li>
+                    <input type="radio" id="B" name="answer">
+                    <label for="B" id="option_B"></label>
+                </li>
+                <li>
+                    <input type="radio" id="C" name="answer">
+                    <label for="C" id="option_C"></label>
+                </li>
+                <li>
+                    <input type="radio" id="D" name="answer">
+                    <label for="D" id="option_D"></label>
+                </li>
+            </ul>
+        </div>
+        <div class="Submit_button">
+            <button type="submit" id="Submit-Button">Submit</button>
+        </div>
+    </section>
+
+    <section id="result-section">
+        <h3 id="greating">Well Done</h3>
+        <h4>Your result is <span id="result">8</span> / <span id="total-question">8</span></h4>
+    </section>
+    <script src="./script.js"></script>
 </body>
 </html>
